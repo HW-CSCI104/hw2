@@ -5,6 +5,7 @@
 #include <set>
 #include <vector>
 #include <algorithm>
+#include "util.h"
 
 class Product {
 public:
@@ -30,6 +31,7 @@ public:
      * Outputs the product info in the database format
      */
     virtual void dump(std::ostream& os) const;
+
 
     /**
      * Accessors and mutators
